@@ -14,7 +14,7 @@
             "OC\\CodingStandard\\": "src"
         }
     },
-    "require-dev": {
+    "require": {
         "friendsofphp/php-cs-fixer": "^2.11"
     }
 }
