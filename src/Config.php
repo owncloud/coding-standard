@@ -36,7 +36,7 @@ class Config extends BaseConfig {
 	{
 		$rules = [
             '@PSR1' => true,
-            // PRS-2
+            // PSR-2
             'braces' => [
                 'position_after_functions_and_oop_constructs' => 'same'
             ],
