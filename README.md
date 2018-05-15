@@ -6,7 +6,7 @@ This repository provides a configuration for [friendsofphp/php-cs-fixer](http://
 
 ## Installation
 ```
-composer require --dev owncloud/coding-stanfard
+composer require --dev owncloud/coding-standard
 ```
 
 
