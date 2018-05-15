@@ -1,0 +1,20 @@
+{
+    "name": "owncloud/coding-standard",
+    "description": "ownCloud Coding Standard",
+    "type": "library",
+    "license": "AGPL-3.0",
+    "homepage": "http://www.owncloud.org",
+    "keywords": ["owncloud", "coding", "standard", "code", "style", "php-cs-fixer"],
+    "authors": [
+        { "name": "Thomas Müller", "email": "thomas.mueller@tmit.eu" },
+        { "name": "Patrick Jahns", "email": "github@patrickjahns.de" }
+    ],
+    "autoload": {
+        "psr-4": {
+            "OC\\CodingStandard\\": "src"
+        }
+    },
+    "require": {
+        "friendsofphp/php-cs-fixer": "^2.11"
+    }
+}
