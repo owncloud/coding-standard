@@ -70,8 +70,12 @@ class Config extends BaseConfig {
 			'yoda_style' => [
 				'equal' => false,
 				'identical' => false
-			]
-		];
+			],
+            // phpunit automated refactorings
+            'php_unit_no_expectation_annotation' => true,
+            'php_unit_expectation' => true,
+            'php_unit_dedicate_assert_internal_type' => true
+        ];
 		return $rules;
 	}
 }
