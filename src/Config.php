@@ -30,7 +30,7 @@ class Config extends BaseConfig {
 		$this->setIndent("\t");
 	}
 
-	public function getRules() {
+	public function getRules(): array {
 		$rules = [
 			'@PSR1' => true,
 			// PSR-2
