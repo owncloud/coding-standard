@@ -12,7 +12,7 @@ composer require --dev owncloud/coding-standard
 
 ## Usage
 
-Create a configuration file `.php_cs.dist` in the root of your project:
+Create a configuration file `.php-cs-fixer.dist.php` in the root of your project:
 
 ```
 <?php

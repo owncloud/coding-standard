@@ -44,7 +44,7 @@ class Config extends BaseConfig {
 			'function_declaration' => true,
 			'indentation_type' => true,
 			'line_ending' => true,
-			'lowercase_constants' => true,
+			'constant_case'  => ['case' => 'lower'],
 			'lowercase_keywords' => true,
 			'method_argument_space' => true,
 			'no_break_comment' => true,
@@ -65,7 +65,7 @@ class Config extends BaseConfig {
 			'array_syntax' => ['syntax' => 'short'],
 			'combine_consecutive_issets' => true,
 			'combine_consecutive_unsets' => true,
-			'no_extra_consecutive_blank_lines' => true,
+			'no_extra_blank_lines' => true,
 			'is_null' => true,
 			'yoda_style' => [
 				'equal' => false,
