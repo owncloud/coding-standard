@@ -61,7 +61,7 @@ class Config extends BaseConfig {
 			'switch_case_space' => true,
 			'visibility_required' => true,
 			// ownCloud specific
-			'native_function_invocation' => true,
+			'native_function_invocation' => ['strict' => false],
 			'array_syntax' => ['syntax' => 'short'],
 			'combine_consecutive_issets' => true,
 			'combine_consecutive_unsets' => true,
