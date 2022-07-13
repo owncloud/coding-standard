@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [3.0.7] 2022-07-13
+### Changed
+- pin to php-cs-fixer 3.8.0 to avoid problems with 3.9.3
+
 ## [3.0.6] 2022-07-13
 ### Changed
 - pin to php-cs-fixer 3.9.3 to avoid problems with 3.9.2
