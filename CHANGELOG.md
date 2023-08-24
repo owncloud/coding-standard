@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [5.0.0] 2023-08-24
+### Changed
+- use latest php-cs-fixer 3.23.0 (requires PHP 8)
+
 ## [4.3.0] 2023-07-14
 ### Changed
 - use latest php-cs-fixer 3.21.0 (the last version that supports PHP 7.4)
