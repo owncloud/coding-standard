@@ -50,7 +50,7 @@ class Config extends BaseConfig {
 			'no_break_comment' => true,
 			'no_closing_tag' => true,
 			'no_spaces_after_function_name' => true,
-			'spaces_inside_parentheses' => 'none',
+			'spaces_inside_parentheses' => true,
 			'no_trailing_whitespace' => true,
 			'no_trailing_whitespace_in_comment' => true,
 			'single_blank_line_at_eof' => true,
