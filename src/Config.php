@@ -34,9 +34,15 @@ class Config extends BaseConfig {
 		$rules = [
 			'@PSR1' => true,
 			// PSR-2
-			'braces' => [
-				'position_after_functions_and_oop_constructs' => 'same'
+			'braces_position' => [
+				'classes_opening_brace' => 'same_line',
+				'functions_opening_brace' => 'same_line'
 			],
+			'control_structure_braces' => true,
+			'control_structure_continuation_position' => true,
+			'declare_parentheses' => true,
+			'no_multiple_statements_per_line' => true,
+			'statement_indentation' => true,
 			'class_definition' => true,
 			'elseif' => true,
 			'encoding' => true,
