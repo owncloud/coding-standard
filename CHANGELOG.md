@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [5.2.0] 2024-08-15
+### Changed
+- use latest php-cs-fixer 3.62.0 (requires PHP 8)
+
 ## [5.1.0] 2024-06-01
 ### Changed
 - use latest php-cs-fixer 3.58.1 (requires PHP 8)
