@@ -15,6 +15,6 @@
         }
     },
     "require": {
-        "friendsofphp/php-cs-fixer": "v3.62.0"
+        "friendsofphp/php-cs-fixer": "^3.85.1"
     }
 }
