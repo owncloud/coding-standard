@@ -65,7 +65,7 @@ class Config extends BaseConfig {
 			'single_line_after_imports' => true,
 			'switch_case_semicolon_to_colon' => true,
 			'switch_case_space' => true,
-			'visibility_required' => true,
+			'modifier_keywords' => true,
 			// ownCloud specific
 			'native_function_invocation' => ['strict' => false],
 			'array_syntax' => ['syntax' => 'short'],
